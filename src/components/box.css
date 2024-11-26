@@ -1,0 +1,109 @@
+.box
+{
+    border: none;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 8px black;
+    
+}
+.x
+{
+    color:red;
+}
+.o
+{
+    color:blue;
+}
+.display
+{
+    position: absolute;
+    left: 50%;
+    top:33%;
+    transform: translate(-50%,-70%);
+    height: 50px;
+    width:180px;
+    box-shadow: 0px 0px 8px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    background-color: white;
+    
+}
+.next
+{
+    /* background-color:grey; */
+    color: black;
+    font-weight: 600;
+
+}
+.x1{
+    color:red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.O1
+{
+    color: blue;
+    font-size: 40px;
+}
+.submit
+{
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    transform: translate(-50%,-30%);
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    border: none;
+    color:red;
+    font-weight: bold;
+    /* background-color: black; */
+    cursor: pointer;
+    font-family: "Fredoka", sans-serif;
+}
+.disabled
+{
+    pointer-events: none;
+}
+.display1
+{
+    color:green;
+}
+.x2
+{
+    color: red;
+}
+.o2
+{
+    color: blue;
+}
+@media(max-width:450px) {
+    .submit{
+        margin-top: -20px;
+    }
+    .display{
+        margin-top: 25px;
+    }
+    
+}
