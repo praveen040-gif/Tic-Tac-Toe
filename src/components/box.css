@@ -98,12 +98,12 @@
 {
     color: blue;
 }
-@media(max-width:450px) {
+@media(max-width:500px) {
     .submit{
-        margin-top: -20px;
+        margin-top: 10px;
     }
     .display{
-        margin-top: 25px;
+        margin-top: -10px;
     }
     
 }
